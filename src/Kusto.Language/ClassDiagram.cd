@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Kusto.Language.KustoCode">
+    <Position X="0.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAggCCgIgrAAASAQAIQACAAAFAiQMAEAAAESAAAAAI=</HashCode>
+      <FileName>KustoCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Editor.CodeKinds">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAABAAAAAAAAAgAAAAAAAAAABA=</HashCode>
+      <FileName>Editor\CodeKinds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.SyntaxNode" Collapsed="true">
+    <Position X="27.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAgAECAIAAAAACAAAAAIQQAAAQAAAAQCAIAECBA=</HashCode>
+      <FileName>Syntax\SyntaxNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.Expression" Collapsed="true">
+    <Position X="32" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAAAAAAAAAAAAAABAAAAAAAAAAACgAACA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.LiteralExpression" Collapsed="true">
+    <Position X="31" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAQAIAAAAAAAAIAAAAAAAAQAgBBAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.CompoundStringLiteralExpression" Collapsed="true">
+    <Position X="35.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAAIAAAAAAAAIAAAACAAAAAgBBAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.TypeOfLiteralExpression" Collapsed="true">
+    <Position X="26.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAABIAAAAAAIAAAACAAAIAAEAAABAQAgABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.DynamicExpression" Collapsed="true">
+    <Position X="28.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAABAAIAAAAAAAAIAAEQAABAQAgABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.NameDeclaration" Collapsed="true">
+    <Position X="33.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAAIAAAQAAAAIQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.NameReference" Collapsed="true">
+    <Position X="37.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAABIAAAAAAIAAAQAAAAIQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.Name" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.TokenName" Collapsed="true">
+    <Position X="17.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAAIAAAQAAAAIQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.BracketedName" Collapsed="true">
+    <Position X="22" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAABIAAAQAAAAJQAAAAAAAQAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.BracedName" Collapsed="true">
+    <Position X="24.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAAIAAAwAAAAIQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.WildcardedName" Collapsed="true">
+    <Position X="15.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAAIAAAAQAAAIQAAAAAAAQAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.BracketedWildcardedName" Collapsed="true">
+    <Position X="19.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAABIAAAAQAAAJQAAAAAAAQAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.NamedParameter" Collapsed="true">
+    <Position X="40" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIAAAAAgIAAAQAAAAIIAAQAAAAQAAABAA=</HashCode>
+      <FileName>Syntax\CodeGen\GeneratedSyntaxNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.CustomNode" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABIABAAAAIAAACAAAAIIAAAIAAAAAAABAA=</HashCode>
+      <FileName>Syntax\CustomNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.CustomElementDescriptor" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAQAAAAAACAAUAAAAIAQAAAAAAAAAIgAAAAAAAAA=</HashCode>
+      <FileName>Syntax\CustomNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kusto.Language.Syntax.SyntaxElement" Collapsed="true">
+    <Position X="13" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAMDgRBBIAjKACAUAIJEwG5USIAKodAoMKAWSEBWBDQ=</HashCode>
+      <FileName>Syntax\SyntaxElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Kusto.Language.IncludeFunctionKind">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIACAAAAAAIAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>KustoCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Kusto.Language.ParserKind">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KustoCode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Kusto.Language.Syntax.SyntaxKind">
+    <Position X="10.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/f/nfdb+/P/v7X/+v/u+///v//t9v79+v///9/2//f8=</HashCode>
+      <FileName>Syntax\SyntaxKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Kusto.Language.Syntax.IncludeTrivia" Collapsed="true">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAg=</HashCode>
+      <FileName>Syntax\SyntaxElement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
